@@ -1,0 +1,22 @@
+Xinyu Meng xm73
+Qichao Lin ql180
+Systems programming CS214,Project One, Spring 2021
+ 
+We used the example in the p1.pdf and the output is correct. In addition, we tested other cases so we think the ww.c is correct.
+ 
+TESTING CASES:
+Based on the 3 scenarios(argument with size only, size and a file name, 
+ 
+size and a directory), we tested both 3 scenarios so that our program 
+ 
+can read from standard input, wrap and write to standard output, read 
+ 
+from a file, wrap and write to standard output, read from files in a 
+ 
+directory, wrap and create or overwrite a wrapped file with prefix of 
+ 
+the previous file name. We adjusted the text of the files to make sure 
+ 
+our program can deal with different situations(like a file starts with 
+ 
+a bunch of whitespace, has several paragraphs with more than 2 /n).
